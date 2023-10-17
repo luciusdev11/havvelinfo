@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.wp-block-cover.alignfull {
+  min-height: 100vh;
+  background-color: #011a0b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp-block-cover__inner-container {
+  text-align: center;
+}
+
+.wp-block-heading {
+  font-size: 40px;
+  color: #dbff00;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.wp-block-group {
+  margin-top: 20px;
+}
+
+.has-small-font-size {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #dbff00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wp-block-separator {
+  background-color: #ffffff54;
+  color: #ffffff54;
+}
